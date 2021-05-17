@@ -1,0 +1,29 @@
+.large-hero{
+    position: relative;
+
+    &__text-content{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        left:10%;
+        width:100%;
+        text-align: left;
+    }
+
+    &__title {
+        font-size: 80px;
+        color:white;
+    }
+
+    &__subtitle {
+        color: white;
+    }
+
+
+
+}
+
+
+
+
+
